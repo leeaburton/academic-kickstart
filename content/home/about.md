@@ -1,5 +1,5 @@
 +++
-# About/Biography widget.
+# About/Bibliography widget.
 widget = "about"
 active = true
 date = "2016-04-20T00:00:00"
@@ -10,10 +10,10 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Computational Chemistry",
-    "Energy Materials",
-    "Sustainability",
-    "Photovoltaics"
+    "Computer Modelling",
+    "Catalysis",
+    "Solar Energy",
+    "Sustainability"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -34,6 +34,10 @@ weight = 5
  
 +++
 
-# Biography
+# Hello :)
 
-Lee Burton is an international research fellow at the Université Catholique de Louvain in Belgium. His research predominantly involves the use of codes to simulate materials for solar panels, electronic devices and catalysts.
+I'm a scientist based in Belgium. My research mostly involves using codes to simulate materials for solar panels, electric devices and catalysts.
+
+Here you'll find 2 things. In Posts I want to keep snippets i've found useful on certain topics, like making nice 3D images. In Projects, you'll find side work that doesn't fit in with my day job. This way I have a place to build up knowledge bit by bit, rather than forgetting and having to start from scratch each time!
+
+I want to minimise redundancy, so if you're looking for papers head over to google scholar, random thoughts head over to twitter etc. Here will just be for stand-alone work stuff... apologies if it's sometimes a little rough around the edges!

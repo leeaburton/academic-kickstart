@@ -6,7 +6,7 @@
 baseurl = "https://leeaburton.github.io/"
 
 # Title of your site
-title = "Academic"
+title = "Home"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -51,7 +51,7 @@ defaultContentLanguageInSubdir = false
 
   # Your details.
   name = "Lee A. Burton"
-  role = "Scientist working on electronics"
+  role = "International Research Fellow"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -245,6 +245,11 @@ defaultContentLanguageInSubdir = false
     icon_pack = "ai"
     link = "https://orcid.org/0000-0002-0647-5483"
 
+#  [[params.social]]
+#    icon = "file-alt"
+#    icon_pack = "ai"
+#    link = {{% staticref "files/cv.pdf" %}}
+
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
@@ -253,10 +258,10 @@ defaultContentLanguageInSubdir = false
   # Align the main menu to the right of the page? (true/false)
   align_right = true
 
-[[menu.main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
+#[[menu.main]]
+#  name = "Home"
+#  url = "#about"
+#  weight = 1
 
 #[[menu.main]]
 #  name = "Publications"
@@ -273,10 +278,10 @@ defaultContentLanguageInSubdir = false
   url = "#projects"
   weight = 4
 
-#[[menu.main]]
-#  name = "Teaching"
-#  url = "#teaching"
-#  weight = 5
+[[menu.main]]
+  name = "CV"
+  url = "/files/cv.pdf"
+  weight = 5
 
 [[menu.main]]
   name = "Contact"
