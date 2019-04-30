@@ -1,0 +1,45 @@
+During my first Masters degree i wrote a code to predict the flow of charge over a randomly generated surface.
+
+This was a relatively trivial task (I was an undergrad at the time) and I was able to get a good grade for completing it.
+
+Much later I was to hear about a concept called 'geopolitical inevitability'. 
+The idea is that pretty much all of human history is dictated by geography and if you rewound back to the beginning and let events play themselves out all over again you would end up with an almost identical political/administrative map as there is today, simply because of the (relatively) fixed geography of the world.
+
+I started to think about how the world was a surface like the ones generated for my project. Rather than charge flowing over it, instead goods would flow via trade. In some areas goods would accumulate, in others goods would deprecate, sloshing around but always dictated by the physical constraints of the world. For example goods would not flow over tall Mountains or over wide oceans (initially at least).  
+
+In this way i thought it would be interesting to take a similar tool to the one i developed in my masters year and apply it the surface of the world.
+
+The maths behind it is quite simple. The world needs to be reduced to points forming a grid. The finer the grid the better. Each point would have a 'rate constant' between it and it's neighbours, which is just a number indicating the relative ease of transport in that direction. If each point on the grid had an elevation above sea level, the rate constant could be related to the difference in elevation between the point and it's neighbour. If there is a very sheer uphill gradient between two points, for example, then not much transport is going to occur in the direction.
+
+This model can also allow fast transport over water, because sea-level is set to zero elevation and transport between two zero-elevation-points can be a kind of minimal friction transport.
+
+All of these rate constants collected into a table is called a Hamiltonian Matrix. With it you can do lots of fancy maths including solve for transport as a function of time.
+
+In my Masters project we would drop one electron on to the centre of a surface and see how long it took to diffuse to the edges. Here would require something different. There would need to be a low level generation of charge or 'goods' across the surface of the model (earth) which would correspond intuitively to surpluss food. There would also need to be a low level destruction of charge or goods, corresponding to the consumption of food. No goods would be generated or destroyed at sea (i.e. at zero elevation) but would have fast rate constants across water to land. 
+
+Eventually goods would start to accumulate in certain spots. Not just low-lying areas from goods trickling down-hill, but low-lying areas accessible by water and surrounded by decent amounts of good-producing land. 
+
+I think such a simple model would immediately identify areas such as modern-day istanbul and Rome as centres of trade. 
+
+It probably seems a bit over-complicated to go to the effort of proving such a thing. But I think this could also be developed into a useful tool for predicting future development as well as explaining the past.
+
+For example. I want to look at a way of predicting the optimum distribution of energy grids/power cables for renewable energy. This could be a similar thing, where rather than produce 'goods' areas produce clean energy that then wants to be 'traded' away. 
+
+The name of this is the Master Equation and is a phenomenological set of first-order differential equations describing the time evolution of (usually) the probability of a system to occupy each one of a discrete set of states with regard to a continuous time variable (t). The most familiar form is 
+
+dP/dt = AP
+
+where P is a column vector (where element i represents state i), and A is the matrix of connections. The way connections among states are made determines the dimension of the problem.
+
+When the connections are time-independent rate constants, the master equation represents a kinetic scheme, and the process is Markovian (any jumping time probability density function for state i is an exponential, with a rate equal to the value of the connection). When the connections depend on the actual time, the process is not stationary and the master equation reads
+
+dP/dt = A(t)P
+
+When the connections represent multi exponential jumping time probability density functions, the process is semi-Markovian, and the equation of motion is an integro-differential equation termed the generalized master equation:
+
+dP/dt = (intergral)^t_0 A(t-gamma)P(gamma)d(gamma).
+
+The matrix A can also represent birth and death, meaning that probability is injected (birth) or taken from (death) the system, where then, the process is not in equilibrium.
+
+
+

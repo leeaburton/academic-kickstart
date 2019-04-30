@@ -8,7 +8,7 @@ draft = false
 tags = []
 
 # Project summary to display on homepage.
-summary = "Average light intensity by latitude and longitude."
+summary = "Light intensity by latitude and longitude."
 
 # Optional image to display on homepage.
 image_preview = ""

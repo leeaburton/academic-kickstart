@@ -20,7 +20,10 @@ preview = true
 
 +++
 
-There are many many ways for scientists to make 3D images. I'm going to focus on just 2 software packages called <a href="http://jp-minerals.org/vesta/en/">VESTA</a> and <a href="https://www.blender.org/">Blender</a>. Vesta is my go-to visualisation tool, I've used it since day one and it's very intuitive and flexible. Blender on the other hand is a more involved and complicated process but this software offers the possibility for professional grade 3D images and even CGI animations. Oh and they're both free! :)
+There are many many ways for scientists to make 3D images. I'm going to focus on just 2 software packages called <a href="http://jp-minerals.org/vesta/en/">Vesta</a> and <a href="https://www.blender.org/">Blender</a>. Vesta is my go-to visualisation tool, I've used it since day one and it's very intuitive and flexible. Blender on the other hand is a more involved and complicated process but this software offers the possibility for professional grade 3D images and even CGI animations. Oh and they're both free! :)
+
+{{< figure src="/img/vestablender.png" title="Vesta and Blender:" caption="the two image manipulation packages I've found most useful in research" alt="Vesta and Blender logos">}}
+
 
 Right, to begin with you have to load a specific addon called <a href="https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Import-Export/PDB">Atomic Blender</a>, so that blender will understand chemical structures.
 

@@ -20,9 +20,9 @@ preview = true
 
 +++
 
-I'm always forgetting how to code. It's not a great trait for someone who's entire career depends on it. As i said on my homepage I want this site to be a place to keep the kind of snippets I always forget. So to begin I'll put here the info relevant for the site itself.
+As I said on my homepage I want this site to be a place to keep the kind of snippets I always forget. So to begin, I'll put here the info relevant for the site itself.
 
-Firstly, this site is built by Hugo and not Jekyll. I installed Hugo with <a href="https://brew.sh/">Homebrew</a>, which is a great package manager for mac computers. To do this I type:
+Firstly, this site is built by Hugo, not Jekyll (which I know lots of other people are using). I installed Hugo with <a href="https://brew.sh/">Homebrew</a>, which is a great package manager for mac computers. To do this I type:
 
 <code>brew install hugo</code>
 
@@ -38,16 +38,16 @@ With Hugo I use **Academic**, a framework to help create a nice website quickly.
 
        <code>git clone https://github.com/sourcethemes/academic-kickstart.git My_Website</code>
     
-2. Initialize the theme:
+2. Initialise the theme:
 
        <code>cd My_Website</code>
        <code>git submodule update --init --recursive</code>
 
-3. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add content, customize the site, and deploy it.
+3. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add content, customise the site, and deploy it.
 
 From this point I can write to the files on my computer, which are easy to read, modify and create. 
 
-These changes can be viewed locally before i make anything public, so I can check I didn't do too much damage!
+These changes can be viewed locally before I make anything public, which is great because I can work on it while offline and I can check I didn't do too much damage before I upload anything!
 
 This can be done by typing
 
